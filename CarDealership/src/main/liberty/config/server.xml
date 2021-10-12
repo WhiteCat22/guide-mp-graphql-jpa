@@ -12,7 +12,7 @@
   <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
     id="defaultHttpEndpoint" host="*" />
 
-  <application location="CarDealershipBackend.war" context-root="/CarDealership">
+  <application location="CarDealership.war" context-root="/CarDealership">
   </application>
 
   <variable name="io.openliberty.enableGraphQLUI" value="true" />
@@ -29,5 +29,4 @@
       <properties.derby.embedded databaseName="CarDB" createDatabase="create"/>
   </dataSource>
 
-  <logging traceSpecification="*=info:com.ibm.ws.jaxrs*=all:org.apache.cxf.*=all"/>
 </server>

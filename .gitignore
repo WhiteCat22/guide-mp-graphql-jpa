@@ -1,7 +1,4 @@
 target/
-finish/target/
-start/target/
-
 bin/
 
 .classpath
@@ -10,14 +7,8 @@ bin/
 .settings/
 .apt_generated/
 
-finish/.gitignore
-start/.gitignore
-
 # MacOS system files
 .DS_Store
 
 # Asciidoc rendered
 README.html
-
-finish/src/main/webapp/META-INF/MANIFEST.MF
-start/src/main/webapp/META-INF/MANIFEST.MF
